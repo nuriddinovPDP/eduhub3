@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./main.css" />
+    <link
+      rel="shortcut icon"
+      href="images/Mask groupewsdfghujtf.png"
+      type="image/x-icon"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/quill@2/dist/quill.snow.css"
+      rel="stylesheet"
+    />
+    <style>
+      #editor {
+        height: 300px;
+      }
+    </style>
+  </head>
+  <body>
+    <header class="joytop">
+      <div class="container">
+        <div class="joytop_inner">
+          <a href="./index.html" class="joytop_img">
+            <img src="./images/Group 225.png" alt="Joytop logo" />
+          </a>
+
+          <a href="./index.html" class="header_list_link">Menyuga qaytish</a>
+
+          <a href="" class="joytop_traslation">
+            <select class="input">
+              <option c value="">uz</option>
+              <option value="">ru</option>
+              <option value="">en</option>
+            </select>
+          </a>
+        </div>
+      </div>
+    </header>
+    <section class="contact">
+      <div class="container">
+        <div class="contact_inner">
+          <form
+            action="https://echo.htmlacademy.ru"
+            class="contact_form"
+            method="post"
+          >
+            <label for="name" class="contact_label"> Nomi </label> <br />
+            <input
+              type="text"
+              id="name"
+              name="center_name"
+              required
+              class="contact_input"
+              placeholder="Nomi krting"
+            />
+            <br />
+            <label for="addres" class="contact_label">Manzil</label> <br />
+            <input
+              type="text"
+              id="addres"
+              name="center_addres"
+              class="contact_input"
+              placeholder="Manzilni krit"
+              required
+            />
+            <br />
+            <label for="tel" class="contact_tel-label">Kontakt</label><br />
+            <div class="contact_tel-box">
+              <div class="contact_tel-main">
+                <p class="contact_tel-text">+998</p>
+              </div>
+
+              <input
+                type="tel"
+                id="tel"
+                name="center_tel"
+                class="contact-tel_input"
+                required
+                pattern="[0-9]*"
+                maxlength="9"
+              />
+              <label for="tur"></label>
+              <select name="center_tur" id="tur" class="input-2">
+                <option class="input_option" selected disabled value="">
+                  Turini tanlang
+                </option>
+                <option class="input_option" value="school">school</option>
+                <option class="input_option" value="university">
+                  university
+                </option>
+                <option class="input_option" value="academy">academy</option>
+                <option class="input_option" value="educational_center">
+                  educational center
+                </option>
+              </select>
+            </div>
+            <div id="toolbar">
+              <!-- Add formatting options -->
+              <select class="ql-font"></select>
+              <select class="ql-size"></select>
+              <button class="ql-bold"></button>
+              <button class="ql-italic"></button>
+              <button class="ql-underline"></button>
+              <button class="ql-strike"></button>
+              <select class="ql-color"></select>
+              <select class="ql-background"></select>
+              <button class="ql-script" value="sub"></button>
+              <button class="ql-script" value="super"></button>
+              <button class="ql-blockquote"></button>
+              <button class="ql-code-block"></button>
+              <button class="ql-list" value="ordered"></button>
+              <button class="ql-list" value="bullet"></button>
+              <button class="ql-indent" value="-1"></button>
+              <button class="ql-indent" value="+1"></button>
+              <button class="ql-direction" value="rtl"></button>
+              <select class="ql-align"></select>
+              <button class="ql-link"></button>
+              <button class="ql-image"></button>
+              <button class="ql-video"></button>
+              <button class="ql-formula"></button>
+              <button class="ql-clean"></button>
+            </div>
+
+            <!-- Create the editor container -->
+            <div id="editor">
+              <p>Hello World!</p>
+              <p>Some initial <strong>bold</strong> text</p>
+              <p><br /></p>
+            </div>
+
+            <!-- Include the Quill library -->
+
+            <!-- Initialize Quill editor -->
+
+            <button class="contact_btn" type="submit">Yaratish</button>
+          </form>
+        </div>
+      </div>
+    </section>
+    <script src="https://cdn.jsdelivr.net/npm/quill@2/dist/quill.js"></script>
+    <script>
+      const quill = new Quill("#editor", {
+        theme: "snow",
+        modules: {
+          toolbar: "#toolbar",
+        },
+      });
+
+      document.getElementById("get-content").addEventListener("click", () => {
+        const delta = quill.getContents();
+        const text = quill.getText();
+        const html = quill.root.innerHTML;
+
+        console.log("Delta:", delta);
+        console.log("Text:", text);
+        console.log("HTML:", html);
+
+        // Set the innerHTML of the content-output div
+        document.getElementById("content-output").innerHTML = html;
+      });
+    </script>
+  </body>
+</html>

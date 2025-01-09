@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Registration</title>
+    <link rel="stylesheet" href="./main.css" />
+    <link
+      rel="shortcut icon"
+      href="images/Mask groupewsdfghujtf.png"
+      type="image/x-icon"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- <link
+      rel="icon"
+      type="image/x-icon"
+      href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAcBAMAAACAI8KnAAAALVBMVEVHcEz/fkf/fkf/fkf/fkf/fkf/fkf/fkf/fUb/fkf/fkf/fkf/fkf/fkf/fkcebPVJAAAAD3RSTlMAyabi1P+67wwbV0ItiG+OQpk0AAAAwElEQVR4AayMIRABYRCF3x3AXFDIyvUretLN8MFRb1TlhmQUXbkZfUa/cl1PimoEvUf/zj968ZW3b9/b1V8Jel7DRMZ45m08laMGicKemnCQ2jmgbKY+LE4qgDSApAKWyoBy5JIIWCuGTQtLCjfpCVcW+T534so3W+/CU2WliRruyNlLZS+GCuzlfDsYQ1ovFXWx9H4D3pJMfZmVpDNw/Lxi4CGpw4+5jAI8Q8nIvEvlib4D82MRAbI2UegOxaEKAFIlRiqAT83CAAAAAElFTkSuQmCC"
+    /> -->
+  </head>
+  <body>
+    <header class="joytop">
+      <div class="container">
+        <div class="joytop_inner">
+          <a href="./index.html" class="joytop_img">
+            <img src="./images/Group 225.png" alt="Joytop logo" />
+          </a>
+          <nav class="site_navbar">
+            <ul class="header_list">
+              <li class="header_item">
+                <a href="./sign-up.html" class="header_list_link">Kirish</a>
+              </li>
+              <li class="header_item">
+                <a href="./registration.html" class="header_list_link"
+                  >Ro'yxatdan o'tish</a
+                >
+              </li>
+            </ul>
+          </nav>
+          <a href="" class="joytop_traslation">
+            <select class="input">
+              <option c value="">uz</option>
+              <option value="">ru</option>
+              <option value="">en</option>
+            </select>
+          </a>
+        </div>
+      </div>
+    </header>
+    <main class="sing_up-main">
+      <section class="sing_up-section">
+        <form class="form" action="https://echo.htmlacademy.ru" method="POST">
+          <label for="user_tel" class="sing_up-label"
+            >Raqamingizni kiriting</label
+          >
+          <div class="sing_up-tel-container">
+            <div class="sing_up-tel_text-container">
+              <p class="sing_up-tel_text">+998</p>
+            </div>
+            <input
+              placeholder="Raqamingizni kiriting"
+              id="user_tel"
+              type="tel"
+              name="user_tel"
+              class="sing_up-tel"
+              required
+              pattern="[0-9]*"
+              maxlength="9"
+            />
+          </div>
+
+          <label for="password" style="margin-top: 20px" class="sing_up-label"
+            >Parol</label
+          >
+          <div class="sing_up-input-container">
+            <input
+              placeholder="Parolingizni kiriting"
+              id="password"
+              type="password"
+              name="password"
+              class="sing_up-password"
+              required
+            />
+
+            <div class="sing_up-password_img-container">
+              <img onclick="show()" id="eye-img" src="./eye-close.png" alt="" />
+            </div>
+          </div>
+          <button class="sing_up-btn" style="padding: 15px 128px">
+            Kirish
+          </button>
+          <a href="#" class="sign-up_link">Parolni unutdingizmi?</a>
+          <div class="sign-up_box">
+            <a href="./registration.html" class="sign-up_link-2">
+              <span class="sign-up-box_span">Agar Sizda akkaunt bo'lmasa</span>
+              Ro'yxatdan o'ting</a
+            >
+          </div>
+        </form>
+      </section>
+    </main>
+    <footer class="site_footer">
+      <div class="container">
+        <div class="footer_inner">
+          <img src="./images/footer_logo.png" alt="" class="footer_logo" />
+          <a href="#" class="footer_link">Eduhub.com © 2024</a>
+        </div>
+      </div>
+    </footer>
+    <script src="./app.js"></script>
+  </body>
+</html>
