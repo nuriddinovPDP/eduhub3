@@ -29,6 +29,7 @@
           <a href="./index.html" class="joytop_img">
             <img src="./images/Group 225.png" alt="Joytop logo" />
           </a>
+
           <nav class="site_navbar">
             <ul class="header_list">
               <li class="header_item">
@@ -39,18 +40,37 @@
                   >Ro'yxatdan o'tish</a
                 >
               </li>
+              <li class="header_item">
+                <a href="./markazyaratish.html" class="header_list_link"
+                  >Markaz yaratish</a
+                >
+              </li>
             </ul>
           </nav>
-          <a href="" class="joytop_traslation">
-            <select class="input">
-              <option c value="">uz</option>
-              <option value="">ru</option>
-              <option value="">en</option>
-            </select>
-          </a>
+          <select class="input">
+            <option c value="">uz</option>
+            <option value="">ru</option>
+            <option value="">en</option>
+          </select>
+          <button class="burger-btn">
+            <img
+              width="30"
+              height="30"
+              src="./images/btn.png"
+              alt="Burger Menu"
+            />
+          </button>
+          <div class="burger-menu">
+            <ul>
+              <li><a href="./sign-up.html">Kirish</a></li>
+              <li><a href="./registration.html">Ro'yxatdan o'tish</a></li>
+              <li><a href="./markazyaratish.html">Markaz yaratish</a></li>
+            </ul>
+          </div>
         </div>
       </div>
     </header>
+
     <main class="sing_up-main">
       <section class="sing_up-section">
         <form class="form" action="https://echo.htmlacademy.ru" method="POST">
@@ -103,14 +123,29 @@
         </form>
       </section>
     </main>
-    <footer class="site_footer">
+    <!-- <footer class="site_footer">
       <div class="container">
         <div class="footer_inner">
           <img src="./images/footer_logo.png" alt="" class="footer_logo" />
           <a href="#" class="footer_link">Eduhub.com © 2024</a>
         </div>
       </div>
-    </footer>
+    </footer> -->
     <script src="./app.js"></script>
+    <script>
+      document.addEventListener("DOMContentLoaded", () => {
+        const burgerBtn = document.querySelector(".burger-btn");
+        const burgerMenu = document.querySelector(".burger-menu");
+
+        if (burgerBtn && burgerMenu) {
+          burgerBtn.addEventListener("click", () => {
+            burgerMenu.classList.toggle("open");
+            console.log("Burger button clicked!"); // Konsolda xabarni ko'rish uchun
+          });
+        } else {
+          console.error("Burger button or menu not found!");
+        }
+      });
+    </script>
   </body>
 </html>

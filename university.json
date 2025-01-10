@@ -1,0 +1,122 @@
+[
+  {
+    "name": "PDP University",
+    "description": "O'zbekistondagi yagona to'laqonli Xalqaro IT Universitet",
+    "address": "Sergeli district, Yangi Sergeli street, 12, Tashkent 100022, 100100, Tashkent",
+    "phone": "8 78 777 77 47",
+    "date": "2022-06-22",
+    "image": "https://via.placeholder.com/165x255"
+  },
+  {
+    "name": "Tashkent University of Information Technologies",
+    "description": "Axborot texnologiyalari va kommunikatsiyalar universiteti",
+    "address": "Amir Temur street, 108, Tashkent 100084, Uzbekistan",
+    "phone": "8 71 238 64 32",
+    "date": "2023-01-15",
+    "image": "https://via.placeholder.com/165x255"
+  },
+  {
+    "name": "Westminster International University in Tashkent",
+    "description": "Xalqaro darajadagi ta'lim markazi",
+    "address": "12 Istiqbol street, Tashkent, Uzbekistan",
+    "phone": "8 71 238 74 38",
+    "date": "2023-03-10",
+    "image": "https://via.placeholder.com/165x255"
+  },
+  {
+    "name": "Inha University in Tashkent",
+    "description": "Koreya texnologiya universitetining O'zbekistondagi filiali",
+    "address": "9 Ziyolilar street, Tashkent, Uzbekistan",
+    "phone": "8 71 289 99 99",
+    "date": "2023-04-20",
+    "image": "https://via.placeholder.com/165x255"
+  },
+  {
+    "name": "MDIS Tashkent",
+    "description": "Management Development Institute of Singapore in Tashkent",
+    "address": "28 Yusuf Hos Hojib street, Tashkent, Uzbekistan",
+    "phone": "8 71 271 77 00",
+    "date": "2023-05-30",
+    "image": "https://via.placeholder.com/165x255"
+  },
+  {
+    "name": "Amity University Tashkent",
+    "description": "Hindistonning xalqaro universiteti filiali",
+    "address": "21 Afrosiyob street, Tashkent, Uzbekistan",
+    "phone": "8 71 200 00 40",
+    "date": "2023-02-18",
+    "image": "https://via.placeholder.com/165x255"
+  },
+  {
+    "name": "Turin Polytechnic University in Tashkent",
+    "description": "O'zbekistonda faoliyat yurituvchi texnologiya universiteti",
+    "address": "17 Little Ring Road, Tashkent, Uzbekistan",
+    "phone": "8 71 246 72 54",
+    "date": "2023-07-01",
+    "image": "https://via.placeholder.com/165x255"
+  },
+  {
+    "name": "Team University",
+    "description": "O'zbekistondagi xususiy biznes universiteti",
+    "address": "Kichik Halqa Yo'li, Tashkent, Uzbekistan",
+    "phone": "8 71 207 00 78",
+    "date": "2023-03-25",
+    "image": "https://via.placeholder.com/165x255"
+  },
+  {
+    "name": "Akfa University",
+    "description": "Zamonaviy texnologiyalar va tibbiyot sohasidagi yetakchi universitet",
+    "address": "2 Osiyo street, Tashkent, Uzbekistan",
+    "phone": "8 71 207 00 70",
+    "date": "2023-06-15",
+    "image": "https://via.placeholder.com/165x255"
+  },
+  {
+    "name": "Samarkand State University",
+    "description": "O'zbekistondagi qadimgi universitetlardan biri",
+    "address": "University Boulevard, Samarkand, Uzbekistan",
+    "phone": "8 66 234 56 78",
+    "date": "2023-09-15",
+    "image": "https://via.placeholder.com/165x255"
+  },
+  {
+    "name": "Bukhara State University",
+    "description": "Buxorodagi eng yirik davlat universiteti",
+    "address": "M.Ikbol street, Bukhara, Uzbekistan",
+    "phone": "8 65 223 45 67",
+    "date": "2023-08-10",
+    "image": "https://via.placeholder.com/165x255"
+  },
+  {
+    "name": "Namangan State University",
+    "description": "Namangandagi yetakchi oliy ta'lim muassasasi",
+    "address": "Namangan street, Namangan, Uzbekistan",
+    "phone": "8 69 456 78 90",
+    "date": "2023-08-18",
+    "image": "https://via.placeholder.com/165x255"
+  },
+  {
+    "name": "Andijan State Medical Institute",
+    "description": "Andijondagi tibbiyot universiteti",
+    "address": "Andijan street, Andijan, Uzbekistan",
+    "phone": "8 74 567 89 01",
+    "date": "2023-05-10",
+    "image": "https://via.placeholder.com/165x255"
+  },
+  {
+    "name": "Fergana Polytechnic Institute",
+    "description": "Farg'ona shahridagi texnika institut",
+    "address": "Fergana street, Fergana, Uzbekistan",
+    "phone": "8 73 234 56 78",
+    "date": "2023-04-15",
+    "image": "https://via.placeholder.com/165x255"
+  },
+  {
+    "name": "Urgench State University",
+    "description": "Xorazmdagi asosiy oliy ta'lim muassasasi",
+    "address": "Urgench street, Urgench, Uzbekistan",
+    "phone": "8 62 345 67 89",
+    "date": "2023-03-11",
+    "image": "https://via.placeholder.com/300x300"
+  }
+]

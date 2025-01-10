@@ -348,7 +348,7 @@ input {
   flex-wrap: wrap;
   margin-bottom: 80px;
   display: flex;
-  width: 1200px;
+  max-width: 1200px;
   margin-left: 50px;
   gap: 10px;
 }
@@ -360,7 +360,9 @@ input {
   border-bottom: 7px solid #801efd;
   flex-direction: column;
 }
-.markaz_list-img {
+.markaz_list-img-2 {
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
 }
 .markaz_list-strong {
   font-size: 16px;
@@ -951,11 +953,8 @@ input {
     top: 250px;
     position: absolute;
   }
-  .markaz_list {
-    width: 550px;
-  }
 }
-.hero_list-2 {
+/* .hero_list-2 {
   margin-left: 80px;
   display: flex;
   gap: 36px;
@@ -964,15 +963,16 @@ input {
   width: 1464px;
   list-style: none;
   flex-wrap: wrap;
-}
+} */
 .hero_item-3::before {
   content: "";
   background-image: url(./images/academic\ 1.png);
   background-repeat: no-repeat;
-  width: 192px;
+  background-size: contain;
+  width: 122px;
   height: 227px;
-  left: 195px;
-  top: 40px;
+  left: 95px;
+  top: 45px;
   position: absolute;
 }
 .contact_input::placeholder {
@@ -1160,5 +1160,39 @@ input {
 
   .burger-menu.open {
     display: block; /* Ochilgan holatda */
+  }
+}
+.hero_list-2 {
+  display: flex;
+  margin-left: 100px;
+  flex-wrap: wrap;
+  width: 1300px;
+  list-style: none;
+  gap: 30px;
+}
+
+.item-main {
+  max-width: 650px;
+}
+.link-main {
+}
+.img-main {
+  border-radius: 15px;
+}
+@media only screen and (max-width: 480px) {
+  .hero_list-2 {
+    margin-left: 0;
+    margin-right: 10px;
+  }
+
+  .item-main {
+    max-width: 300px;
+  }
+  .img-main {
+    max-width: 440px;
+  }
+  .markaz_link {
+    margin-left: 0;
+    width: 300px;
   }
 }

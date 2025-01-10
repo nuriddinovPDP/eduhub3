@@ -1,0 +1,122 @@
+[
+  {
+    "name": "PDP Maktabi",
+    "description": "O'zbekistondagi yagona to'laqonli Xalqaro IT Maktabi",
+    "address": "Sergeli district, Yangi Sergeli street, 12, Tashkent 100022, 100100, Tashkent",
+    "phone": "8 78 777 77 47",
+    "date": "2022-06-22",
+    "image": "https://via.placeholder.com/165x255"
+  },
+  {
+    "name": "Tashkent Axborot Texnologiyalari Maktabi",
+    "description": "Axborot texnologiyalari va kommunikatsiyalar maktabi",
+    "address": "Amir Temur street, 108, Tashkent 100084, Uzbekistan",
+    "phone": "8 71 238 64 32",
+    "date": "2023-01-15",
+    "image": "https://via.placeholder.com/165x255"
+  },
+  {
+    "name": "Westminster Xalqaro Maktabi Tashkentda",
+    "description": "Xalqaro darajadagi ta'lim markazi",
+    "address": "12 Istiqbol street, Tashkent, Uzbekistan",
+    "phone": "8 71 238 74 38",
+    "date": "2023-03-10",
+    "image": "https://via.placeholder.com/165x255"
+  },
+  {
+    "name": "Inha Maktabi Tashkentda",
+    "description": "Koreya texnologiya maktabining O'zbekistondagi filiali",
+    "address": "9 Ziyolilar street, Tashkent, Uzbekistan",
+    "phone": "8 71 289 99 99",
+    "date": "2023-04-20",
+    "image": "https://via.placeholder.com/165x255"
+  },
+  {
+    "name": "MDIS Maktabi Tashkentda",
+    "description": "Management Development Institute of Singapore Tashkentda",
+    "address": "28 Yusuf Hos Hojib street, Tashkent, Uzbekistan",
+    "phone": "8 71 271 77 00",
+    "date": "2023-05-30",
+    "image": "https://via.placeholder.com/165x255"
+  },
+  {
+    "name": "Amity Maktabi Tashkentda",
+    "description": "Hindistonning xalqaro maktabi filiali",
+    "address": "21 Afrosiyob street, Tashkent, Uzbekistan",
+    "phone": "8 71 200 00 40",
+    "date": "2023-02-18",
+    "image": "https://via.placeholder.com/165x255"
+  },
+  {
+    "name": "Turin Texnologiya Maktabi Tashkentda",
+    "description": "O'zbekistonda faoliyat yurituvchi texnologiya maktabi",
+    "address": "17 Little Ring Road, Tashkent, Uzbekistan",
+    "phone": "8 71 246 72 54",
+    "date": "2023-07-01",
+    "image": "https://via.placeholder.com/165x255"
+  },
+  {
+    "name": "Team Maktabi",
+    "description": "O'zbekistondagi xususiy biznes maktabi",
+    "address": "Kichik Halqa Yo'li, Tashkent, Uzbekistan",
+    "phone": "8 71 207 00 78",
+    "date": "2023-03-25",
+    "image": "https://via.placeholder.com/165x255"
+  },
+  {
+    "name": "Akfa Maktabi",
+    "description": "Zamonaviy texnologiyalar va tibbiyot sohasidagi yetakchi maktab",
+    "address": "2 Osiyo street, Tashkent, Uzbekistan",
+    "phone": "8 71 207 00 70",
+    "date": "2023-06-15",
+    "image": "https://via.placeholder.com/165x255"
+  },
+  {
+    "name": "Samarkand Davlat Maktabi",
+    "description": "O'zbekistondagi qadimgi maktablardan biri",
+    "address": "University Boulevard, Samarkand, Uzbekistan",
+    "phone": "8 66 234 56 78",
+    "date": "2023-09-15",
+    "image": "https://via.placeholder.com/165x255"
+  },
+  {
+    "name": "Bukhara Davlat Maktabi",
+    "description": "Buxorodagi eng yirik davlat maktabi",
+    "address": "M.Ikbol street, Bukhara, Uzbekistan",
+    "phone": "8 65 223 45 67",
+    "date": "2023-08-10",
+    "image": "https://via.placeholder.com/165x255"
+  },
+  {
+    "name": "Namangan Davlat Maktabi",
+    "description": "Namangandagi yetakchi oliy ta'lim muassasasi",
+    "address": "Namangan street, Namangan, Uzbekistan",
+    "phone": "8 69 456 78 90",
+    "date": "2023-08-18",
+    "image": "https://via.placeholder.com/165x255"
+  },
+  {
+    "name": "Andijan Tibbiyot Maktabi",
+    "description": "Andijondagi tibbiyot maktabi",
+    "address": "Andijan street, Andijan, Uzbekistan",
+    "phone": "8 74 567 89 01",
+    "date": "2023-05-10",
+    "image": "https://via.placeholder.com/165x255"
+  },
+  {
+    "name": "Ferg'ona Politehnika Maktabi",
+    "description": "Farg'ona shahridagi texnika institut",
+    "address": "Fergana street, Fergana, Uzbekistan",
+    "phone": "8 73 234 56 78",
+    "date": "2023-04-15",
+    "image": "https://via.placeholder.com/165x255"
+  },
+  {
+    "name": "Urganch Davlat Maktabi",
+    "description": "Xorazmdagi asosiy oliy ta'lim muassasasi",
+    "address": "Urgench street, Urgench, Uzbekistan",
+    "phone": "8 62 345 67 89",
+    "date": "2023-03-11",
+    "image": "https://via.placeholder.com/165x255"
+  }
+]

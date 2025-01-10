@@ -1,0 +1,114 @@
+[
+  {
+    "name": "GALAKTIKA O'QUV MARKAZI",
+    "description": "O'quv markazi barcha kerakli fanlar bo'yicha kurslar taklif etadi.",
+    "address": "Toshkent, Yashnobod tumani, Istiqbol ko'chasi, 15",
+    "phone": "+998 71 231-72-64",
+    "date": "2023-01-15",
+    "image": "https://via.placeholder.com/165x255"
+  },
+  {
+    "name": "ART DECO STUDY",
+    "description": "San'at va dizayn bo'yicha kurslar.",
+    "address": "Toshkent, Chilonzor tumani, Chilonzor ko'chasi, 81",
+    "phone": "+998 93 123-45-67",
+    "date": "2023-03-10",
+    "image": "https://via.placeholder.com/165x255"
+  },
+  {
+    "name": "IFFATLI KELIN O'QUV MARKAZI",
+    "description": "Ayollar uchun kasb-hunar va biznes kurslari.",
+    "address": "Toshkent, Chilonzor tumani, Kichik Halqa Yo'li ko'chasi, 16",
+    "phone": "+998 71 234-56-78",
+    "date": "2023-04-20",
+    "image": "https://via.placeholder.com/165x255"
+  },
+  {
+    "name": "REGISTON O'QUV MARKAZI",
+    "description": "Matematika va fizika bo'yicha tayyorlov kurslari.",
+    "address": "Toshkent, Chilonzor tumani, Kichik Halqa Yo'li ko'chasi, Chilonzor-C mavzesi, 6/1",
+    "phone": "+998 71 345-67-89",
+    "date": "2023-05-30",
+    "image": "https://via.placeholder.com/165x255"
+  },
+  {
+    "name": "ILMFANRIVOJ O'QUV MARKAZI",
+    "description": "Buxgalteriya va audit bo'yicha kurslar.",
+    "address": "Toshkent, Yunusobod tumani, Chingiz Aytmatov ko'chasi, 1A",
+    "phone": "+998 71 456-78-90",
+    "date": "2023-06-15",
+    "image": "https://via.placeholder.com/165x255"
+  },
+  {
+    "name": "CENTR BEZOPASTNOSTI TRUDA",
+    "description": "Mehnat xavfsizligi va sanitariya bo'yicha treninglar.",
+    "address": "Toshkent, Yashnobod tumani, 7-chi Parkent tor ko'chasi, 2",
+    "phone": "+998 71 567-89-01",
+    "date": "2023-07-01",
+    "image": "https://via.placeholder.com/165x255"
+  },
+  {
+    "name": "EFFEKT MOLIYA O'QUV MARKAZI",
+    "description": "Moliyaviy tahlil va investitsiya bo'yicha kurslar.",
+    "address": "Toshkent, Yunusobod tumani, Minor dahasi, 84",
+    "phone": "+998 71 678-90-12",
+    "date": "2023-08-10",
+    "image": "https://via.placeholder.com/165x255"
+  },
+  {
+    "name": "PROFRESURS MChJ",
+    "description": "Professional rivojlanish va sertifikatlash kurslari.",
+    "address": "Toshkent, Yakkasaroy tumani, Bog'ibo'ston ko'chasi, 262",
+    "phone": "+998 71 789-01-23",
+    "date": "2023-09-15",
+    "image": "https://via.placeholder.com/165x255"
+  },
+  {
+    "name": "Cambridge Learning Centre",
+    "description": "Ingliz tili va boshqa tillar bo'yicha kurslar.",
+    "address": "Toshkent, Yunusobod tumani, Sayram ko'chasi, 25",
+    "phone": "+998 71 231-72-64",
+    "date": "2023-10-20",
+    "image": "https://via.placeholder.com/165x255"
+  },
+  {
+    "name": "Richmond Trust",
+    "description": "Biznes va menejment bo'yicha treninglar.",
+    "address": "Toshkent, Mirobod tumani, Amir Temur shoh ko'chasi, 2",
+    "phone": "+998 71 238-74-38",
+    "date": "2023-11-25",
+    "image": "https://via.placeholder.com/165x255"
+  },
+  {
+    "name": "Mitra",
+    "description": "Psixologiya va shaxsiy rivojlanish bo'yicha kurslar.",
+    "address": "Toshkent, Shayxontohur tumani, Xadra dahasi, 1",
+    "phone": "+998 71 345-67-89",
+    "date": "2023-12-30",
+    "image": "https://via.placeholder.com/165x255"
+  },
+  {
+    "name": "Kelajak Ilmi - Business School",
+    "description": "Biznes va tadbirkorlik bo'yicha ta'lim.",
+    "address": "Toshkent, Mirzo Ulug'bek tumani, Shahrisabz ko'chasi, 1",
+    "phone": "+998 71 456-78-90",
+    "date": "2024-01-10",
+    "image": "https://via.placeholder.com/165x255"
+  },
+  {
+    "name": "Get Study",
+    "description": "O'qish va malaka oshirish bo'yicha kurslar.",
+    "address": "Toshkent, Yashnobod tumani, Istiqbol ko'chasi, 15",
+    "phone": "+998 71 567-89-01",
+    "date": "2024-02-15",
+    "image": "https://via.placeholder.com/165x255"
+  },
+  {
+    "name": "City Education",
+    "description": "Shahar va qishloq ta'limi bo'yicha kurslar.",
+    "address": "Toshkent, Chilonzor tumani, Chilonzor ko'chasi, 81",
+    "phone": "+998 71 678-90-12",
+    "date": "2024-03-20",
+    "image": "https://via.placeholder.com/165x255"
+  }
+]

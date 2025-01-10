@@ -23,15 +23,16 @@
     /> -->
   </head>
   <body>
+    \
     <header class="joytop">
       <div class="container">
         <div class="joytop_inner">
           <a href="./index.html" class="joytop_img">
             <img src="./images/Group 225.png" alt="Joytop logo" />
           </a>
+
           <nav class="site_navbar">
             <ul class="header_list">
-           
               <li class="header_item">
                 <a href="./sign-up.html" class="header_list_link">Kirish</a>
               </li>
@@ -40,17 +41,37 @@
                   >Ro'yxatdan o'tish</a
                 >
               </li>
+              <li class="header_item">
+                <a href="./markazyaratish.html" class="header_list_link"
+                  >Markaz yaratish</a
+                >
+              </li>
             </ul>
           </nav>
-            <select class="input">
-              <option c value="">uz</option>
-              <option value="">ru</option>
-              <option value="">en</option>
-            </select>
-          </a>
+          <select class="input">
+            <option c value="">uz</option>
+            <option value="">ru</option>
+            <option value="">en</option>
+          </select>
+          <button class="burger-btn">
+            <img
+              width="30"
+              height="30"
+              src="./images/btn.png"
+              alt="Burger Menu"
+            />
+          </button>
+          <div class="burger-menu">
+            <ul>
+              <li><a href="./sign-up.html">Kirish</a></li>
+              <li><a href="./registration.html">Ro'yxatdan o'tish</a></li>
+              <li><a href="./markazyaratish.html">Markaz yaratish</a></li>
+            </ul>
+          </div>
         </div>
       </div>
     </header>
+
     <main class="sing_up-main">
       <section class="sing_up-section">
         <form class="form" action="https://echo.htmlacademy.ru" method="POST">
@@ -65,7 +86,10 @@
             type="text"
             class="sing_up-name"
           />
-          <label class="sing_up-label" style="margin-top: 20px;" for="user_firstname"
+          <label
+            class="sing_up-label"
+            style="margin-top: 20px"
+            for="user_firstname"
             >Familyangizni kiriitng</label
           >
           <input
@@ -76,10 +100,10 @@
             required
             class="sing_up-name sing_up-firstname"
           />
-          <label for="user_tel" style="margin-top: 20px;" class="sing_up-label"
+          <label for="user_tel" style="margin-top: 20px" class="sing_up-label"
             >Raqamingizni kiriting</label
           >
-          <div class="sing_up-tel-container" style="margin-top: 20px;">
+          <div class="sing_up-tel-container" style="margin-top: 20px">
             <div class="sing_up-tel_text-container">
               <p class="sing_up-tel_text">+998</p>
             </div>
@@ -87,7 +111,6 @@
               placeholder="Raqamingizni kiriting"
               id="user_tel"
               type="tel"
-
               name="user_tel"
               class="sing_up-tel"
               required
@@ -96,7 +119,9 @@
             />
           </div>
 
-          <label style="margin-top: 20px;" for="password" class="sing_up-label">Password</label>
+          <label style="margin-top: 20px" for="password" class="sing_up-label"
+            >Password</label
+          >
           <div class="sing_up-input-container">
             <input
               placeholder="Enter your password"
@@ -112,7 +137,10 @@
             </div>
           </div>
 
-          <label style="margin-top: 20px;" for="confirm_password" class="sing_up-label"
+          <label
+            style="margin-top: 20px"
+            for="confirm_password"
+            class="sing_up-label"
             >Confirm Password</label
           >
           <div class="sing_up-input-container">
@@ -134,19 +162,37 @@
               />
             </div>
           </div>
-          <span id="password_error" style="color: red;margin-bottom: 20px;"></span>
+          <span
+            id="password_error"
+            style="color: red; margin-bottom: 20px"
+          ></span>
           <button class="sing_up-btn">Ro'yxatdan o'tish</button>
         </form>
       </section>
     </main>
-    <footer class="site_footer">
+    <!-- <footer class="site_footer">
       <div class="container">
         <div class="footer_inner">
           <img src="./images/footer_logo.png" alt="" class="footer_logo" />
           <a href="#" class="footer_link">Eduhub.com © 2024</a>
         </div>
       </div>
-    </footer>
+    </footer> -->
     <script src="./app.js"></script>
+    <script>
+      document.addEventListener("DOMContentLoaded", () => {
+        const burgerBtn = document.querySelector(".burger-btn");
+        const burgerMenu = document.querySelector(".burger-menu");
+
+        if (burgerBtn && burgerMenu) {
+          burgerBtn.addEventListener("click", () => {
+            burgerMenu.classList.toggle("open");
+            console.log("Burger button clicked!"); // Konsolda xabarni ko'rish uchun
+          });
+        } else {
+          console.error("Burger button or menu not found!");
+        }
+      });
+    </script>
   </body>
 </html>

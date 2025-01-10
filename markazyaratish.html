@@ -28,18 +28,47 @@
             <img src="./images/Group 225.png" alt="Joytop logo" />
           </a>
 
-          <a href="./index.html" class="header_list_link">Menyuga qaytish</a>
-
-          <a href="" class="joytop_traslation">
-            <select class="input">
-              <option c value="">uz</option>
-              <option value="">ru</option>
-              <option value="">en</option>
-            </select>
-          </a>
+          <nav class="site_navbar">
+            <ul class="header_list">
+              <li class="header_item">
+                <a href="./sign-up.html" class="header_list_link">Kirish</a>
+              </li>
+              <li class="header_item">
+                <a href="./registration.html" class="header_list_link"
+                  >Ro'yxatdan o'tish</a
+                >
+              </li>
+              <li class="header_item">
+                <a href="./markazyaratish.html" class="header_list_link"
+                  >Markaz yaratish</a
+                >
+              </li>
+            </ul>
+          </nav>
+          <select class="input">
+            <option c value="">uz</option>
+            <option value="">ru</option>
+            <option value="">en</option>
+          </select>
+          <button class="burger-btn">
+            <img
+              width="30"
+              height="30"
+              src="./images/btn.png"
+              alt="Burger Menu"
+            />
+          </button>
+          <div class="burger-menu">
+            <ul>
+              <li><a href="./sign-up.html">Kirish</a></li>
+              <li><a href="./registration.html">Ro'yxatdan o'tish</a></li>
+              <li><a href="./markazyaratish.html">Markaz yaratish</a></li>
+            </ul>
+          </div>
         </div>
       </div>
     </header>
+
     <section class="contact">
       <div class="container">
         <div class="contact_inner">
@@ -161,6 +190,19 @@
 
         // Set the innerHTML of the content-output div
         document.getElementById("content-output").innerHTML = html;
+      });
+      document.addEventListener("DOMContentLoaded", () => {
+        const burgerBtn = document.querySelector(".burger-btn");
+        const burgerMenu = document.querySelector(".burger-menu");
+
+        if (burgerBtn && burgerMenu) {
+          burgerBtn.addEventListener("click", () => {
+            burgerMenu.classList.toggle("open");
+            console.log("Burger button clicked!"); // Konsolda xabarni ko'rish uchun
+          });
+        } else {
+          console.error("Burger button or menu not found!");
+        }
       });
     </script>
   </body>
